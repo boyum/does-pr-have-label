@@ -1,6 +1,6 @@
 # Does PR has the label?
 
-Do you want to know if a PR has a particular label? You can use this action to easily chech that, and use the output as you need:
+Do you want to know if a PR has a particular label? You can use this action to easily check that, and use the output as you need:
 
 Example:
 
@@ -13,10 +13,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: Dreamcodeio/pr-has-label-action@master
+    - uses: boyum/pr-have-label-action@master
       id: checkLabel
       with:
         label: PROVISION:FEATURE_BRANCH
-    - name: Does 'pull_request' has ${{ steps.checkLabel.outputs.checkedLabel }} label? 
+    - name: Does 'pull_request' have ${{ steps.checkLabel.outputs.checkedLabel }} label? 
       run: echo "${{ steps.checkLabel.outputs.hasLabel }}" 
 ```

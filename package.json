@@ -1,5 +1,5 @@
 {
-  "name": "pr-has-label-action",
+  "name": "does-pr-have-label",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dreamcodeio/pr-has-label-action.git"
+    "url": "git+https://github.com/boyum/does-pr-have-label.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dreamcodeio/pr-has-label-action/issues"
+    "url": "https://github.com/boyum/does-pr-have-label/issues"
   },
-  "homepage": "https://github.com/Dreamcodeio/pr-has-label-action#readme",
+  "homepage": "https://github.com/boyum/does-pr-have-label#readme",
   "dependencies": {
-    "@actions/core": "^1.2.0",
-    "@actions/github": "^2.0.0"
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
   }
 }
